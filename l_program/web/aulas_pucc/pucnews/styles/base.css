@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    margin:0;
+    padding: 0;
+}
+p{
+    margin:0;
+    padding:0;
+}
+
+/*#superbar{
+    background-color: black;
+    color:white;
+    min-height: 40px;
+}*/
+
+#wrapper{
+    /*border: 1px dotted red;*/
+    width: 60%;
+    margin:0 auto; /* por quê? */
+}
+
+
+#header{
+    text-align: center;
+}
+
+#header .dateInfo{
+    text-align: left;
+}
+
+#mainMenu{
+    margin:0;
+    padding:0;
+    list-style: none;
+    display: inline-flex;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#mainMenu li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#mainMenu a{
+    color:black;
+}
+
+#mainMenu a:hover{
+    color:cornflowerblue;
+}
+
+/*#content{
+}*/
+
+#footer{
+    background-color: #ededed;
+    padding: 20px; /*Tem uma hierarquia para flexbox, por isso adicionamos o padding aqui e não ali em baixo    */
+}
+/*Vai colocando margin: 0;
+    padding: 0; em todo mundo, para ver onde recebe o efeitos que você quer*/
+#sitemap{
+    /*border: 2px solid blue;*/
+    font-size: small; /*Para a reenderização ficar boa, evite calcular, porque já tem motor de renenderização - a pg fica mais rápida*/
+    display: inline-flex;
+    width: 100%;
+    /*padding: 15px;Isso aqui faz descolar*/
+    /*margin: 20px;Também faz descolar, estrapola - POR QUE? - eu NÃO quero aquele width 33 ali de baixo*/
+    /*O que aconteceu aqui? Motores de reendreização
+    sempre que poe um elemento, o motor lê e entender de uma forma
+    DIsplay inline do modelo flex, diz ao motor deo browser que independente do que tenha, você quer quer funcione como um carctere texto.
+    Cada elemeto funciona como caracteres em texto - no caso, em bloco
+    Organiza elementos em linha, como um texto corrido
+    Apenas isso, vai fazer isso mas eles ficam colados, então você vai adicionar largura de afastamento entre um e outro pra melhorar
+    Width aqui precisa ser forçado em 100%*/
+
+}
+
+#sitemap ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /*border: 2px solid red; Apenas para facilitar a visualização*/ 
+    /*Config de espaçamentos de largura do inline-flex vem aqui, é aqui que tras a estética do elemeto sitemap*/
+    width: 33%;
+    /*Não iporta quando elementos adicionemos, ele sempre ficará alinhado*/
+}
+
+#sitemap ul p{
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+#sitemap ul li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#sitemap ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#sitemap ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+#social{
+    display: none;
+}
+#CompanyLinks{
+    display: none;
+}
+#lawBar{
+    display: none;
+}
