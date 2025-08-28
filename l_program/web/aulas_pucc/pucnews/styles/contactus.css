@@ -1,4 +1,5 @@
-/*Como faremos para @import para usar mais de um CSS por página? - COMO??*/
+/*Como faremos para @import para usar mais de um CSS por página? - COMO?? usando import url*/
+@import url("/styles/base.css");
 
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -6,6 +7,12 @@ body{
     margin:0;
     padding: 0;
 }
+
+/*É aqui que fazemos tudo o que precisamos. O CSS sobrescreve o último valor, que será lido pelo CSS*/
+#content{
+    display: block;
+}
+
 #content input{
     border: 1px solid #4d4d4d;
     color: black;
