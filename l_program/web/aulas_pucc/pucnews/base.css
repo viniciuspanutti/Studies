@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    /*border: 2px dotted red;*/
+    /*Aí vocÊ tenta colocar o text: center;, mas não é assim que você centraliza elementos de dviisão.
+    O wrapper é uma grande caixona, mas vocÊ quer que ela fique centralizada, então você faz o seguinte:*/
+    width: 60%;
+    margin: 0 auto; /*Por que???*/
+}
+
+#header h1{
+    text-align: center;
+}
+#header .dateInfo{
+    text-align: left;
+}
+/*#header, p{
+    margin: 0;
+    padding: 0;
+} 
+Está errado, porque na hierarquia do css não está de acordo, então precisa dessa ordem de organização
+e partes que você especificou*/
+#mainMenu{
+    /*tira a decoração*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: inline-flex;
+    /*flex deixa alinhados em linha reta
+    inline-flex, deixa um alinhamento do input também*/
+    margin-bottom: 5px;
+}
+#mainMenu li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#mainMenu a{
+ color: black;   
+}
+#mainMenu a:hover{
+    color: cornflowerblue;
+}
+#content{
+    background-color: antiquewhite;
+}
+#footer{
+    background-color: darkgrey;
+}
+
+
+/*Esse aqui é o seu base.css:
+Trabalhando posicionamento -->
+#wrapper{
+
+}
+#header{
+
+}
+#content{
+
+}
+#footer{
+
+}*/

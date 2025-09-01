@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta chasert="utf-8"> <!--Mapa de caracteres necessários para oportugês-->
+        <title>PUC news - Seu portal de notícias</title>
+        <!--Chama-se base por que precisa de base para todo o resto. Base, por que nele, vão os estilos do wrapper, header, content e footer-->
+        <link rel="stylesheet" href="styles/base.css">
+    </head>
+    <div id="wrapper">
+        <!--wrapper funciona como um contairner de outras divisores-->
+        <!--JAMAIS COOQUE ALGO AQUI QUE NÃO SEJA UM DIV, CADA CONTEÚDO É DIFERENTE E CADA CONTEÚDO TEM UMA DIVISÃO-->
+        <div id="header">
+            <!--cabeçalho do portal = menu, amnuncios, título, data -->
+            <p>Quartefeira, dia de hoje tanto faz</p>
+            <h1>The Pucc News</h1>
+            <ul id="mainMenu">
+                <li><a href="#">Campinas</a></li>
+                <li><a href="#">Brasil</a></li>
+                <li><a href="#">Mundo</a></li>
+                <li><a href="#">Esportes</a></li>
+                <li><a href="#">Economia</a></li>
+                <li><a href="#">Tecnologia</a></li>
+                <li><a href="#">Agro</a></li>
+            </ul>
+            <input id="searchField" type="text"/>
+            <div id="content">
+                <!--divideremos o conteúdo em break news (manchetes) e miscelanea de notícia (demais destaques)-->
+                <div id="breakNews">
+                    <div class="breakNewsEntry">
+                        <p>Manchete 1</p>
+                    </div>
+                    <div class="breakNewsEntry">
+                        <p>Manchete 2</p>
+                    </div>
+                    <div id="miscNews">
+                        <div id="firstColumn">
+                            <div class="miscEntry">
+                                <p>notícias de destaque 1</p>
+                            </div>
+                            <div class="miscEntry">
+                                <p>notícias de destaque 1</p>
+                            </div>
+                        </div>
+                        <div id="secondColumn">
+                            <div class="miscEntry">
+                                <p>notícias de destaque 3</p>
+                            </div>
+                            <div class="miscEntry">
+                                <p>notícias de destaque 4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <!--No rodape teremos o sitemaps, área de links "social" e barra de links organizacionais-->
+                <div id="sitemap">
+                    <p>Vamos colocar aqui o sitemap</p>
+                </div>
+                <div id="social">
+                    <p>Vamos colocar aqui as imagens links para os canais</p>
+                </div>
+                <div id="companyLinks">
+                    <p>Links organizacionais -sobre a empresa</p>
+                </div>
+                <div id="LawsBar"> <!--Ou "law"Bar, quando envolve direitos constitucionais-->
+                    <p>PUC Campinas - 2025 Todos os direitos reservados</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</html>
+
+<!--Técnica de homepage 3 divisões//3 partes, header, content e footer, dentro de um wrapper.
+    Vamos apenas trocar os nomes das tags
+    dentro do body eu tenho wrapper - que é um container que encapsula todos os outros. É uma caixa que compila tudo o que tiver, dividio em 3 partes//linhas
+
+
+
+-->

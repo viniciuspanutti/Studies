@@ -1,0 +1,100 @@
+<!--na primeira informamos ao browser do usuario que este eh um arquivo HTML-->
+<!DOCTYPE html>
+<!-- devemos especificar em qual linguagem este documento está -->
+<!-- a titulo de exemplo, coloquei en (english), mas para portugues devemos colocar: pt-->
+<!-- consulte a lista de idiomas disponível: https://www.w3schools.com/tags/ref_country_codes.asp -->
+<html lang="pt-br">
+    <!-- tag não semântica = diretivas para o browser-->
+    <head>
+        <meta charset="UTF-8"/>
+        <!--title se refere ao texto que aparece na aba (titulo da aba)-->
+        <title>Mateus Dias</title>
+        <style>
+            /*Aqui dentro é CSS*/
+            /*Especificador body = tudo o que for definido aqui. será aplicado ao body*/
+            body {
+                background-color: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            /*Especificador p = tudo o qyue for definido para P será aplicado para TODOS os parágrafos*/
+            p {
+                color: rgb(251, 255, 0);
+            }
+            h3 {
+                color: rgb(255, 0, 0);
+            }
+            /*Quando usamos oponto na frente de um nome específico, criamos uma classe de etilo*/
+            .textoaqua {
+                color: aqua;
+            }
+            .textobranco{
+                color: rgb(255, 255, 255);
+            }
+            .textopink{
+                color: deeppink;
+            }
+            /*Alinhamentos*/
+            .textoesquerda {
+                text-align: left;
+            }
+            .textodireita {
+                text-align: right;
+            }
+            .textocentro{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <!-- Conteúdo visivel no browser (aquilo que o usuário visualiza)-->
+    <body>
+        <!-- o atributo src significa SOURCE (fonte, ou seja: onde está o arquivo)-->
+        <img src="./img/foto.jpg">
+        <h1>Mateus Dias</h1>
+        <h2>Professor universitário</h2>
+        <hr/>
+        <h3 class="textopink"><strong>Formação:</strong></h3>
+        <!-- lista de elementos não numerada (ul = unordered list)-->
+        <ul>
+            <li>Graduação em Análise de Sistemas - PUCC - 2004</li>
+            <li>Mestrado em Ciência da Informação - PUCC - 2007</li>
+            <li>Doutorado em Computação - MIT - (interrompido)</li>
+        </ul>
+        <h3><strong>Experiência:</strong></h3>
+        <ul>
+            <li>Dalet Software Solutions - Tel-aviv - IL - Founder</li>
+            <li>Letsfair Services Marketplace</li>
+            <li>PUC-Campinas - Professor</li>
+        </ul>
+        <h3><strong>Contatos:</strong></h3>
+        <!-- lista numerada -->
+        <ol>
+            <li>
+                Email: 
+                    <!-- o texto mailto (MAIL TO) significa que ao clicar no link, 
+                     o browser deve abrir por padrão o aplicativo usado para envio de emails
+                     (isso também é um pouco antigo, mas interessante de abordar - existem casos
+                     em que não há perigo de usar isso por exemplo, browsers que são
+                     construídos especificamente para máquinas industriais que não sofrerão com
+                     robôs varredores de endereços - porque não estão conectados de fato à Internet, mas
+                     somente numa rede protegida. Então ainda hoje é útil)-->
+                    <a href="mailto:mateus.dias@puc-campinas.edu.br">
+                        mateus.dias@puc-campinas.edu.br
+                    </a>
+            </li>
+            <li>
+                <!-- o atributo target com valor _blank informa ao browser que
+                 a página especificada no atributo href deve ser aberta numa nova aba (ou janela caso
+                 o navegador não possua abas - hoje em dia é bastante raro) -->
+                <a href="http://mateus.pro.br" target="_blank">Website pessoal</a>
+            </li>
+        </ol>
+        <h3 class="textocentro"><strong>Teste</strong></h3>
+        <p class="textopink textodireita">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse delectus commodi dolorum perferendis quae ullam porro dignissimos dicta sint at accusantium, laborum exercitationem repellendus amet nihil animi modi odio praesentium!
+        </p>
+        <p class="textoaqua textoesquerda">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum at veritatis omnis quidem dolores natus quisquam optio! Ab obcaecati, ut, molestiae nulla voluptatem natus reiciendis officia dolorem eius facilis dolorum.
+        </p>
+    </body>
+</html>
