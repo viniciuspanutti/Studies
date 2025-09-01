@@ -18,8 +18,13 @@ p {
 
 #wrapper {
     /*border: 1px dotted red;*/
+    /*por quê usamos isso: */
     width: 60%;
-    margin: 0 auto; /* por quê? */
+    margin: 0 auto;
+    /*Porque zero indica top e bottom = 0, auto = esquerda e direita vão ser carregadas automaticamente pelo navegador
+    Mas agora, para o navegador conseguir calcular essas margens laterais e "distribuir igualmente", o elemento precisa ter
+    largura JÁ DEFINIDA, pois se ocupar 100%, ela não poderá ser centralizada por falta dde espaço, e então "auto" não terá efeito.
+    */
 }
 
 

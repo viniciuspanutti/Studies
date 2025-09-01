@@ -31,3 +31,8 @@ body{
     font-size: small;
     padding: 10px;
 }
+
+#content button:hover{
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
