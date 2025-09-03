@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: xx-large;
+}
+label {
+    font-weight: bold;
+}
+.hint{ /*Aplicada aos "p"s em baixo da tag. Hint é "Preencher"*/
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+    font-style: italic;
+    color: rgb(83, 83, 83);
+}
