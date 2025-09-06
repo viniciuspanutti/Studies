@@ -1,5 +1,6 @@
 //Entendendo for loops em linguagem C
-//For loops repeats a section of code a limited amount of times; sempre na seguinte sequência:
+//For loops repeats a section of code a limited amount of times;
+//sempre na seguinte sequência:
 //VARIÁVEL/ CONDICIONAL / INCREMENTO
 //OU
 //INICIALIZAÇÃO/ CONDIÇÃO/ ATUALIZAÇÃO

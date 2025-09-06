@@ -1,0 +1,20 @@
+Tipos de Loop |       Quando Usar
+______________    _____________________________________________________
+   foor Loop  |     Quando você sabe o número de repetições.
+                    Ex: Contar de 1 até 10
+                    Sempre em: Início / Condição / passo(atualização)
+                    Sempre é retornado ao cabeçalho for, e sempre será
+                    executado enquanto for não foi satisfeito
+
+    While     |     Quando não sabe quantas vezes vai repetir, e pode ser
+                    zero vezes. Ex: Esperar usuário digitar "sair".
+                    Enquanto condição é true, será executado o bloco de código,
+                    logo, se condição é false não executa nenhuma vez.
+                    É preciso que a condição seja true or false em algum momento
+                    em seu escopo, do contrário: loop infinito
+
+   Do While   |     Quando precisa rodar ao menos uma vez, independente
+                    da condição. Ex: Pedir senha até acertar.
+                    Aqui, a condição é verificada após a execução do bloco.
+                    Precisa ser true or false em algum momento para não existir
+                    loop infinito.
