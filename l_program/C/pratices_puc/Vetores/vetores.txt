@@ -1,0 +1,17 @@
+Como poderíamos colocar vários valores em apenas uma variável?
+Usaremos arrays para isso. Array é um tipo de estrutura de dados onde
+podemos colocar várias variáveis dentro de uma única variável.
+
+É como se fosse uma caixa vazia, e vamos declarar esta caixa.
+E vamos colocar vários valores do mesmo tipo dentro dessa caixa.
+Cada elemento dentro dessa caixa possui um endereço. E esse endereço é importante
+para conseguirmos selecionar o objeto.
+Dessa forma conseguimos capturar cada elemento dentro dessa caixa e conseguir usa-los.
+Posso inclusive fazer algo para cada um dos elementos da caixa.
+
+
+Dentro de uma caixa colocamos os seguintes valores:
+10 / 34  / 1 / 9 / 97 /
+Valores eses que são correspondentes à esses índices (endereço):
+0 / 1  / 2 / 3 / 4 / 5 /
+//Pois o primeiro índice é sempre zero
