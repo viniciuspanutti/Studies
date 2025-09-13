@@ -1,0 +1,8 @@
+// != de funções matemáticas
+
+São situações que precisamos reaproveitar pedaços de códigos que vão fazer a mesma coisa
+EU pego algo que ja funciounou, e junto onde eu quero que essa função seja reapreoveitada.
+Toda vez que quer fazer algo igual, eu reaproveito funçoes.
+Facilita manutenções, mudanças ou alterações normais.
+Todas as linguagens existem funções. São muito importantes.
+Inclusive, nos já estamos usndo funções
